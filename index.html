@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <!-- ========== Start Section ========== -->
+
+    <section id="home p-2">
+    <div class="container w-50 mx-auto m-3 mt-4">
+        <header class="d-flex mb-4">
+            <img src="./images/note.png" class="d-inline" alt="">
+            <h1>Shopping List</h1>
+        </header>
+        <form id="item-form">
+            <div class="form-control">
+                <input type="text" class="form-input" placeholder="Enter item" id="item-input"
+                name="item">
+                
+
+            </div>
+            <button type="submit" class=" btn-black"><i class="fa-solid fa-plus"></i> Add item</button>
+<div class="filter">
+<input type="text" id="filter" class="form-filter-input" placeholder="filter..">
+
+</div>
+        </form>
+        <ul id="item-list" class="items">
+           
+             
+          </ul>
+    
+        <button id="Clear" class="btn-clear"> Clear All</button>
+    </div>
+    </section>
+        <!-- ========== End Section ========== -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
